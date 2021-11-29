@@ -2,7 +2,8 @@
 
 header {
     display: flex;
-    width: 1500px;
+    max-width: 1500px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 62px 62px 150px 62px;
@@ -36,6 +37,13 @@ a {
     color: #3D37F1;
     text-transform: uppercase;
 }
+
+.burger {
+    font-size: 30px;
+    color: #3D37F1;   
+    display: none; 
+}
+
 
 /* section 2 */
 

@@ -1,0 +1,21 @@
+@media (max-width:1025px) {
+
+    .ul{
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+    
+}
+
+
+@media (max-width:480px) {
+
+    header{
+        padding: 20px 10px;
+    }
+
+    
+}
