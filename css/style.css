@@ -49,10 +49,12 @@ a {
 
 .section-1 {
     display: flex;
-    width: 1500px;
+    max-width: 1500px;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 230px;
+    flex-wrap: wrap;
 }
 
 .img1 {
@@ -120,7 +122,8 @@ a {
 .section-3 {
 
     background: #FBFCFD;
-    width: 1500px;
+    max-width: 1500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +159,8 @@ a {
 .main3 {
     display: flex;
     flex-wrap: wrap;
-    width: 1169px;
+    max-width: 1169px;
+    width: 100%;
     justify-content: space-between;
 
 }
